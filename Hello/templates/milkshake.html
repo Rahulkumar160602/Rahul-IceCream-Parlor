@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Milkshake{% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+    <h1 class="text-center">Our Creamy Milkshakes</h1>
+    <p class="lead text-center">Thick, creamy, and refreshing milkshakes in a variety of flavors.</p>
+    <div class="row my-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/vm.jpg" height="300" width="400" class="card-img-top" alt="Vanilla Milkshake">
+                <div class="card-body">
+                    <h5 class="card-title">Vanilla Milkshake</h5>
+                    <p class="card-text">Classic vanilla milkshake made with real vanilla ice cream.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/cm.jpg" height="300" width="400" class="card-img-top" alt="Chocolate Milkshake">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Milkshake</h5>
+                    <p class="card-text">Rich and creamy chocolate milkshake topped with whipped cream.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/sm.jpg" height="300" width="400" class="card-img-top" alt="Strawberry Milkshake">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry Milkshake</h5>
+                    <p class="card-text">Sweet and fruity strawberry milkshake with a swirl of strawberry syrup.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

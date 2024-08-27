@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Services{% endblock title %}
+
+{% block body %}
+
+<div class="container my-5">
+    <h1 class="text-center">Our Services</h1>
+    <p class="lead text-center">Explore our range of delicious offerings.</p>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/icecream.jpg" class="card-img-top" alt="Ice Cream">
+                <div class="card-body">
+                    <h5 class="card-title">Ice Cream</h5>
+                    <p class="card-text">Enjoy a variety of flavors that will delight your taste buds.</p>
+                    <a href="{% url 'icecream' %}" class="btn btn-primary">Explore Ice Cream</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/falooda.jpg" class="card-img-top" alt="Falooda">
+                <div class="card-body">
+                    <h5 class="card-title">Falooda</h5>
+                    <p class="card-text">A delightful treat with a mix of flavors and textures.</p>
+                    <a href="{% url 'falooda' %}" class="btn btn-primary">Explore Falooda</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/milkshake.jpg" class="card-img-top" alt="Milkshake">
+                <div class="card-body">
+                    <h5 class="card-title">Milkshake</h5>
+                    <p class="card-text">Thick, creamy milkshakes in various flavors.</p>
+                    <a href="{% url 'milkshake' %}" class="btn btn-primary">Explore Milkshakes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Falooda{% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+    <h1 class="text-center">Our Special Falooda</h1>
+    <p class="lead text-center">A delightful blend of vermicelli, sweet basil seeds, and flavored milk topped with ice cream.</p>
+    <div class="row my-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/roy.jpg" height='300' width='400' class="card-img-top" alt="Royal Falooda">
+                <div class="card-body">
+                    <h5 class="card-title">Royal Falooda</h5>
+                    <p class="card-text">A luxurious treat with rose syrup, jelly, and a generous scoop of ice cream.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/kesar.jpg" height='300' width='400' class="card-img-top" alt="Kesar Falooda">
+                <div class="card-body">
+                    <h5 class="card-title">Kesar Falooda</h5>
+                    <p class="card-text">Infused with the richness of saffron, this falooda is a royal indulgence.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/choco.jpg" height='300' width='400' class="card-img-top" alt="Chocolate Falooda">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Falooda</h5>
+                    <p class="card-text">A fusion of chocolate syrup, milk, and ice cream that’s irresistible.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

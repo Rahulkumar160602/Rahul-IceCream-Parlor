@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Ice Cream{% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+    <h1 class="text-center">Our Delicious Ice Creams</h1>
+    <p class="lead text-center">Experience the joy of creamy, rich, and flavorful ice creams that melt in your mouth.</p>
+    <div class="row my-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/ve.webp" height="300" width="400"" class="card-img-top" alt="Vanilla Ice Cream">
+                 <div class="card-body">
+                    <h5 class="card-title">Vanilla</h5>
+                    <p class="card-text">Classic and creamy vanilla made with real vanilla beans.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/ch.jpg" height="300" width="400" class="card-img-top" alt="Chocolate Ice Cream">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate</h5>
+                    <p class="card-text">Rich and indulgent chocolate ice cream for true chocolate lovers.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/static/sta.webp" height="300" width="400" class="card-img-top" alt="Strawberry Ice Cream">
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry</h5>
+                    <p class="card-text">Sweet and tangy strawberry ice cream made with fresh strawberries.</p>
+                    <h1>PRICE:50</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
